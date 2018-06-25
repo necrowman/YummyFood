@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEFFAD7220E1259900003773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFAD7120E1259900003773 /* AppDelegate.swift */; };
+		CEFFAD7420E1259900003773 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFAD7320E1259900003773 /* ViewController.swift */; };
+		CEFFAD7720E1259900003773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFFAD7520E1259900003773 /* Main.storyboard */; };
+		CEFFAD7A20E1259900003773 /* YummyFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEFFAD7820E1259900003773 /* YummyFood.xcdatamodeld */; };
+		CEFFAD7C20E1259E00003773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFFAD7B20E1259E00003773 /* Assets.xcassets */; };
+		CEFFAD7F20E1259E00003773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFFAD7D20E1259E00003773 /* LaunchScreen.storyboard */; };
+		CEFFAD8A20E1259F00003773 /* YummyFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFAD8920E1259F00003773 /* YummyFoodTests.swift */; };
+		CEFFAD9520E1259F00003773 /* YummyFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFAD9420E1259F00003773 /* YummyFoodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFFAD8620E1259F00003773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFFAD6620E1259900003773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFFAD6D20E1259900003773;
+			remoteInfo = YummyFood;
+		};
+		CEFFAD9120E1259F00003773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFFAD6620E1259900003773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFFAD6D20E1259900003773;
+			remoteInfo = YummyFood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEFFAD6E20E1259900003773 /* YummyFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YummyFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFFAD7120E1259900003773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEFFAD7320E1259900003773 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFFAD7620E1259900003773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFFAD7920E1259900003773 /* YummyFood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YummyFood.xcdatamodel; sourceTree = "<group>"; };
+		CEFFAD7B20E1259E00003773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFFAD7E20E1259E00003773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEFFAD8020E1259E00003773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFFAD8520E1259F00003773 /* YummyFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YummyFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFFAD8920E1259F00003773 /* YummyFoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummyFoodTests.swift; sourceTree = "<group>"; };
+		CEFFAD8B20E1259F00003773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFFAD9020E1259F00003773 /* YummyFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YummyFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFFAD9420E1259F00003773 /* YummyFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummyFoodUITests.swift; sourceTree = "<group>"; };
+		CEFFAD9620E1259F00003773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFFAD6B20E1259900003773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFFAD8220E1259F00003773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFFAD8D20E1259F00003773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFFAD6520E1259900003773 = {
+			isa = PBXGroup;
+			children = (
+				CEFFAD7020E1259900003773 /* YummyFood */,
+				CEFFAD8820E1259F00003773 /* YummyFoodTests */,
+				CEFFAD9320E1259F00003773 /* YummyFoodUITests */,
+				CEFFAD6F20E1259900003773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFFAD6F20E1259900003773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFAD6E20E1259900003773 /* YummyFood.app */,
+				CEFFAD8520E1259F00003773 /* YummyFoodTests.xctest */,
+				CEFFAD9020E1259F00003773 /* YummyFoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFFAD7020E1259900003773 /* YummyFood */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFAD7120E1259900003773 /* AppDelegate.swift */,
+				CEFFAD7320E1259900003773 /* ViewController.swift */,
+				CEFFAD7520E1259900003773 /* Main.storyboard */,
+				CEFFAD7B20E1259E00003773 /* Assets.xcassets */,
+				CEFFAD7D20E1259E00003773 /* LaunchScreen.storyboard */,
+				CEFFAD8020E1259E00003773 /* Info.plist */,
+				CEFFAD7820E1259900003773 /* YummyFood.xcdatamodeld */,
+			);
+			path = YummyFood;
+			sourceTree = "<group>";
+		};
+		CEFFAD8820E1259F00003773 /* YummyFoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFAD8920E1259F00003773 /* YummyFoodTests.swift */,
+				CEFFAD8B20E1259F00003773 /* Info.plist */,
+			);
+			path = YummyFoodTests;
+			sourceTree = "<group>";
+		};
+		CEFFAD9320E1259F00003773 /* YummyFoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFAD9420E1259F00003773 /* YummyFoodUITests.swift */,
+				CEFFAD9620E1259F00003773 /* Info.plist */,
+			);
+			path = YummyFoodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFFAD6D20E1259900003773 /* YummyFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFFAD9920E1259F00003773 /* Build configuration list for PBXNativeTarget "YummyFood" */;
+			buildPhases = (
+				CEFFAD6A20E1259900003773 /* Sources */,
+				CEFFAD6B20E1259900003773 /* Frameworks */,
+				CEFFAD6C20E1259900003773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YummyFood;
+			productName = YummyFood;
+			productReference = CEFFAD6E20E1259900003773 /* YummyFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFFAD8420E1259F00003773 /* YummyFoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFFAD9C20E1259F00003773 /* Build configuration list for PBXNativeTarget "YummyFoodTests" */;
+			buildPhases = (
+				CEFFAD8120E1259F00003773 /* Sources */,
+				CEFFAD8220E1259F00003773 /* Frameworks */,
+				CEFFAD8320E1259F00003773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFFAD8720E1259F00003773 /* PBXTargetDependency */,
+			);
+			name = YummyFoodTests;
+			productName = YummyFoodTests;
+			productReference = CEFFAD8520E1259F00003773 /* YummyFoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEFFAD8F20E1259F00003773 /* YummyFoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFFAD9F20E1259F00003773 /* Build configuration list for PBXNativeTarget "YummyFoodUITests" */;
+			buildPhases = (
+				CEFFAD8C20E1259F00003773 /* Sources */,
+				CEFFAD8D20E1259F00003773 /* Frameworks */,
+				CEFFAD8E20E1259F00003773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFFAD9220E1259F00003773 /* PBXTargetDependency */,
+			);
+			name = YummyFoodUITests;
+			productName = YummyFoodUITests;
+			productReference = CEFFAD9020E1259F00003773 /* YummyFoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFFAD6620E1259900003773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ProfunsProduction;
+				TargetAttributes = {
+					CEFFAD6D20E1259900003773 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					CEFFAD8420E1259F00003773 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = CEFFAD6D20E1259900003773;
+					};
+					CEFFAD8F20E1259F00003773 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = CEFFAD6D20E1259900003773;
+					};
+				};
+			};
+			buildConfigurationList = CEFFAD6920E1259900003773 /* Build configuration list for PBXProject "YummyFood" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFFAD6520E1259900003773;
+			productRefGroup = CEFFAD6F20E1259900003773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFFAD6D20E1259900003773 /* YummyFood */,
+				CEFFAD8420E1259F00003773 /* YummyFoodTests */,
+				CEFFAD8F20E1259F00003773 /* YummyFoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFFAD6C20E1259900003773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFFAD7F20E1259E00003773 /* LaunchScreen.storyboard in Resources */,
+				CEFFAD7C20E1259E00003773 /* Assets.xcassets in Resources */,
+				CEFFAD7720E1259900003773 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFFAD8320E1259F00003773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFFAD8E20E1259F00003773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFFAD6A20E1259900003773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFFAD7420E1259900003773 /* ViewController.swift in Sources */,
+				CEFFAD7A20E1259900003773 /* YummyFood.xcdatamodeld in Sources */,
+				CEFFAD7220E1259900003773 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFFAD8120E1259F00003773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFFAD8A20E1259F00003773 /* YummyFoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFFAD8C20E1259F00003773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFFAD9520E1259F00003773 /* YummyFoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFFAD8720E1259F00003773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFFAD6D20E1259900003773 /* YummyFood */;
+			targetProxy = CEFFAD8620E1259F00003773 /* PBXContainerItemProxy */;
+		};
+		CEFFAD9220E1259F00003773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFFAD6D20E1259900003773 /* YummyFood */;
+			targetProxy = CEFFAD9120E1259F00003773 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEFFAD7520E1259900003773 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFFAD7620E1259900003773 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFFAD7D20E1259E00003773 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFFAD7E20E1259E00003773 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFFAD9720E1259F00003773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFFAD9820E1259F00003773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFFAD9A20E1259F00003773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TVU4S3996;
+				INFOPLIST_FILE = YummyFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = necrowman.YummyFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFFAD9B20E1259F00003773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TVU4S3996;
+				INFOPLIST_FILE = YummyFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = necrowman.YummyFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEFFAD9D20E1259F00003773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TVU4S3996;
+				INFOPLIST_FILE = YummyFoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = necrowman.YummyFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YummyFood.app/YummyFood";
+			};
+			name = Debug;
+		};
+		CEFFAD9E20E1259F00003773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TVU4S3996;
+				INFOPLIST_FILE = YummyFoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = necrowman.YummyFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YummyFood.app/YummyFood";
+			};
+			name = Release;
+		};
+		CEFFADA020E1259F00003773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TVU4S3996;
+				INFOPLIST_FILE = YummyFoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = necrowman.YummyFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YummyFood;
+			};
+			name = Debug;
+		};
+		CEFFADA120E1259F00003773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TVU4S3996;
+				INFOPLIST_FILE = YummyFoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = necrowman.YummyFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YummyFood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFFAD6920E1259900003773 /* Build configuration list for PBXProject "YummyFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFFAD9720E1259F00003773 /* Debug */,
+				CEFFAD9820E1259F00003773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFFAD9920E1259F00003773 /* Build configuration list for PBXNativeTarget "YummyFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFFAD9A20E1259F00003773 /* Debug */,
+				CEFFAD9B20E1259F00003773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFFAD9C20E1259F00003773 /* Build configuration list for PBXNativeTarget "YummyFoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFFAD9D20E1259F00003773 /* Debug */,
+				CEFFAD9E20E1259F00003773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFFAD9F20E1259F00003773 /* Build configuration list for PBXNativeTarget "YummyFoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFFADA020E1259F00003773 /* Debug */,
+				CEFFADA120E1259F00003773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEFFAD7820E1259900003773 /* YummyFood.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEFFAD7920E1259900003773 /* YummyFood.xcdatamodel */,
+			);
+			currentVersion = CEFFAD7920E1259900003773 /* YummyFood.xcdatamodel */;
+			path = YummyFood.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEFFAD6620E1259900003773 /* Project object */;
+}
