@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CEFFAD7220E1259900003773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFAD7120E1259900003773 /* AppDelegate.swift */; };
-		CEFFAD7420E1259900003773 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFAD7320E1259900003773 /* ViewController.swift */; };
+		CEFFAD7420E1259900003773 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFAD7320E1259900003773 /* IntroViewController.swift */; };
 		CEFFAD7720E1259900003773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFFAD7520E1259900003773 /* Main.storyboard */; };
 		CEFFAD7A20E1259900003773 /* YummyFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEFFAD7820E1259900003773 /* YummyFood.xcdatamodeld */; };
 		CEFFAD7C20E1259E00003773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFFAD7B20E1259E00003773 /* Assets.xcassets */; };
 		CEFFAD7F20E1259E00003773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFFAD7D20E1259E00003773 /* LaunchScreen.storyboard */; };
 		CEFFAD8A20E1259F00003773 /* YummyFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFAD8920E1259F00003773 /* YummyFoodTests.swift */; };
 		CEFFAD9520E1259F00003773 /* YummyFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFAD9420E1259F00003773 /* YummyFoodUITests.swift */; };
+		CEFFADAA20E139F400003773 /* LoginIntroImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFADA920E139F400003773 /* LoginIntroImages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		CEFFAD6E20E1259900003773 /* YummyFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YummyFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFFAD7120E1259900003773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEFFAD7320E1259900003773 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFFAD7320E1259900003773 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		CEFFAD7620E1259900003773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEFFAD7920E1259900003773 /* YummyFood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YummyFood.xcdatamodel; sourceTree = "<group>"; };
 		CEFFAD7B20E1259E00003773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		CEFFAD9020E1259F00003773 /* YummyFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YummyFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFFAD9420E1259F00003773 /* YummyFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummyFoodUITests.swift; sourceTree = "<group>"; };
 		CEFFAD9620E1259F00003773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFFADA920E139F400003773 /* LoginIntroImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginIntroImages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,11 @@
 		CEFFAD7020E1259900003773 /* YummyFood */ = {
 			isa = PBXGroup;
 			children = (
-				CEFFAD7120E1259900003773 /* AppDelegate.swift */,
-				CEFFAD7320E1259900003773 /* ViewController.swift */,
+				CEFFADA320E1396D00003773 /* Sections */,
 				CEFFAD7520E1259900003773 /* Main.storyboard */,
-				CEFFAD7B20E1259E00003773 /* Assets.xcassets */,
 				CEFFAD7D20E1259E00003773 /* LaunchScreen.storyboard */,
+				CEFFADA220E1274200003773 /* SupportFiles */,
 				CEFFAD8020E1259E00003773 /* Info.plist */,
-				CEFFAD7820E1259900003773 /* YummyFood.xcdatamodeld */,
 			);
 			path = YummyFood;
 			sourceTree = "<group>";
@@ -126,6 +126,57 @@
 				CEFFAD9620E1259F00003773 /* Info.plist */,
 			);
 			path = YummyFoodUITests;
+			sourceTree = "<group>";
+		};
+		CEFFADA220E1274200003773 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFAD7120E1259900003773 /* AppDelegate.swift */,
+				CEFFAD7B20E1259E00003773 /* Assets.xcassets */,
+				CEFFAD7820E1259900003773 /* YummyFood.xcdatamodeld */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		CEFFADA320E1396D00003773 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFADA520E1398D00003773 /* AuthFlow */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		CEFFADA520E1398D00003773 /* AuthFlow */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFADA820E139BE00003773 /* Helpers */,
+				CEFFADA720E139B700003773 /* Models */,
+				CEFFADA620E139AE00003773 /* Controllers */,
+			);
+			path = AuthFlow;
+			sourceTree = "<group>";
+		};
+		CEFFADA620E139AE00003773 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFAD7320E1259900003773 /* IntroViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEFFADA720E139B700003773 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFADA920E139F400003773 /* LoginIntroImages.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEFFADA820E139BE00003773 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +310,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFFAD7420E1259900003773 /* ViewController.swift in Sources */,
+				CEFFADAA20E139F400003773 /* LoginIntroImages.swift in Sources */,
+				CEFFAD7420E1259900003773 /* IntroViewController.swift in Sources */,
 				CEFFAD7A20E1259900003773 /* YummyFood.xcdatamodeld in Sources */,
 				CEFFAD7220E1259900003773 /* AppDelegate.swift in Sources */,
 			);
